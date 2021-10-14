@@ -1,0 +1,24 @@
+{
+  "name": "todayonline",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "cypress-cucumber-preprocessor": {
+    "nonGlobalStepDefinitions": true,
+    "commonPath": "cypress/step_definitions",
+    "stepDefinitions": "cypress/tests"
+  },
+  "scripts": {
+    "test": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^8.6.0",
+    "cypress-cucumber-preprocessor": "^4.3.0"
+  },
+  "dependencies": {
+    "slug": "^5.1.0"
+  }
+}

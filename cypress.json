@@ -1,0 +1,6 @@
+{
+    "pageLoadTimeout": 9999999,
+    "defaultCommandTimeout": 10000,
+    "testFiles": ["**/*.{feature,features}"],
+    "integrationFolder": "cypress/tests"
+}
